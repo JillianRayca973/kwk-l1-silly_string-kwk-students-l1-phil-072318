@@ -9,7 +9,7 @@ puts "My favorite word is #{your_favorite_word}"
 
 favorite_word_in_all_caps = your_favorite_word.supercalifragilisticexpialidocious
 
-puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}"
+puts "MY FAVORITE WORD IS #{favorite_word.upcase}"
 
 # Challenge 3: Make all the letters of phrase lowercase using a built in Ruby method
 
@@ -30,8 +30,8 @@ puts "There are #{letter_count} in #{big_word}"
 # Challenge 5: Add "wow" and "mom" to big_word
 
 bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
-wow=3
-mom=6
+wow= "3"
+mom= "6"
 wow + mom
 new_letter_count = bigger_word.size
 
